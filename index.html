@@ -11,6 +11,7 @@
     <!-- liens -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
     <title>Uramap carte citoyenne participative de signalement de pollutions en rivières et cours d'eau Pays Basque
@@ -20,7 +21,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+    <nav id="haut" class="navbar navbar-expand-lg navbar-light bg-light py-0">
         <a class="navbar-brand" href="index.html"><img src="img/uramapLogo.svg" width="80px" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +29,7 @@
         </button>
 
 
-        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse mr-auto justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active align-self-end pe-3">
                     <a class="nav-link" href="index.html"><span class="sr-only">Accueil</span></a>
@@ -53,33 +54,44 @@
     </nav>
 
 
-    <header style="background-color: #0387cd;" class=" d-flex justity-content-center align-items-center  py-5">
-        <div class=" container text-center text-white">
-            <h1 class="pb-4"> URAMAP carte citoyenne participative de signalement de pollutions en rivières et cours
-                d'eau au Pays
-                Basque et en France</h1>
-            <p>Participez au signalement collectif et citoyen des pollutions de rivières et cours d'eau grace à la
-                carte
-                participative URAMAP, au Pays Basque et partout en France. Tout signalement est important. Parceque
-                80%
-                de la pollution des océans vient des rivières, commençons par là! </p>
-            <div class="pt-3 row justity-content-between">
-
-                <div class="col col-md-4 py-2"><a style="width: 200px; " href="archive-pollutions.html"
-                        class="btn btn-lg btn-light align-content   -center ">Consulter
-                        les
-                        pollutions</a></div>
-
-                <div class="col-md-4 py-2"><a style="width: 200px;" href="signaler-pollution.html"
-                        class="btn btn-lg btn-warning">Signaler une
-                        pollution</a></div>
-
-                <div class="col-md-4 py-2"><a style="width: 200px;" href="archive-actions.html"
-                        class="btn btn-lg btn-danger">Participer à une
-                        action</a></div>
+    <header style="background-color: #0387cd;" class=" d-flex justity-content-center align-items-center  pb-5">
+        <div class="container-fluid">
+            <!-- réseaux sociaux -->
+            <div class="row pt-1 pb-3 justify-content-end">
+                <div class="col-5 col-sm-4 col-lg-2 align-items-end">
+                    <a href="https://www.facebook.com/groups/1003483323064633/" target="_blank" rel="nofollow"
+                        class="px-1 align-items-end"><img src="img/facebook.png" width="30px" alt=""></a>
+                    <a href="https://www.instagram.com/carte.uramap/" target="_blank" rel="nofollow"
+                        class="px-1 align-items-end"><img src="img/instagram.png" width="30px" alt=""></a>
+                    <a href="https://twitter.com/uramap1" target="_blank" rel="nofollow"
+                        class="px-1 align-items-end"><img src="img/twitter (1).png" width="30px" alt=""></a>
+                </div>
             </div>
+            <div class=" container text-center text-white pt-5">
+                <h1 class="pb-4"> URAMAP carte citoyenne participative de signalement de pollutions en rivières et cours
+                    d'eau au Pays
+                    Basque et en France</h1>
+                <p>Participez au signalement collectif et citoyen des pollutions de rivières et cours d'eau grace à la
+                    carte
+                    participative URAMAP, au Pays Basque et partout en France. Tout signalement est important. Parceque
+                    80%
+                    de la pollution des océans vient des rivières, commençons par là! </p>
+                <div class="pt-3 row justity-content-between">
 
-        </div>
+                    <div class="col col-md-4 py-2"><a style="width: 200px; " href="archive-pollutions.html"
+                            class="btn btn-lg btn-light align-content   -center ">Voir la liste des
+                            pollutions</a></div>
+
+                    <div class="col-md-4 py-2"><a style="width: 200px;" href="signaler-pollution.html"
+                            class="btn btn-lg btn-warning">Signaler une
+                            pollution</a></div>
+
+                    <div class="col-md-4 py-2"><a style="width: 200px;" href="archive-actions.html"
+                            class="btn btn-lg btn-danger">Participer à une
+                            action</a></div>
+                </div>
+
+            </div>
     </header>
 
     <main>
@@ -91,7 +103,7 @@
         </section>
 
 
-        <section id="nouvelles" class="bg-primary bg-opacity-25">
+        <section id="nouvelles" class="bg-primary bg-opacity-25 py-4">
             <div class="container">
                 <div class="row">
                     <!-- agenda des actions -->
@@ -108,31 +120,110 @@
 
         </section>
 
-        <section id="projet" class="bg-light">
+        <section id="projet" class="bg-light py-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2>L'outil</h2>
+                    <div class="col-md-6 px-md-5">
+                        <h2>L'outil, la carte participative</h2>
+                        <p>Uramap, la carte participative des pollutions, est un outil pour lutter ensemble contre les
+                            pollutions des rivières et océans, en se rassemblant autour:</p>
+                        <ul>
+                            <li>D'une vision partagée, l’eau: un bien commun dont la vie de chaque individu dépend, du
+                                plus petit cours d’eau jusqu’à l’océan.</li>
+                            <li>D'une mission partagée: Utiliser un outil commun, véritable plateforme citoyenne, pour
+                                communiquer, se
+                                rassembler afin d’avoir une réelle capacité d’action, de suivi en matière de
+                                dépollution, et de dissuasion. </li>
+                            <li>D'un objectif commun: Une mobilisation d’ampleur qui, au-­delà de solutionner des
+                                situations locales de pollution,
+                                permet de tendre vers des pratiques de plus en plus respectueuses envers
+                                l’environnement.</li>
+                        </ul>
+
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 px-md-5">
                         <h2>Le collectif citoyen</h2>
+                        <p>Uramap, c’est un collectif ouvert de citoyens et d’organisations mobilisés pour lutter contre
+                            les
+                            pollutions de nos cours d’eau et océans.
+                            Uramap c’est nous tous, l’ensemble des participants engagés, qui faisons avancer ce projet
+                            par notre
+                            action, notre engagement.</p>
+
+                        <div class="row py-4">
+                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="90px" src="img/bizi.png"
+                                    alt="">
+                            </div>
+                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="80px"
+                                    src="img/itsasarima.png" alt="">
+                            </div>
+                            <div class="col-6 col-md-4 py-1"><img class="img-fluid" width="60px" src="img/surfrider.png"
+                                    alt="">
+                            </div>
+                            <div class="col-6 col-md-4 py-1"><img class="img-fluid mx-3" width="160px"
+                                    src="img/anpertos.png" alt="">
+                            </div>
+                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="200px"
+                                    src="img/lalasurfcenter.jpeg" alt=""></div>
+                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="110px"
+                                    src="img/angletsurfspririt.png" alt=""></div>
+                            <div class="col-6 col-md-4 py-1"><span class="h5"><img class="img-fluid me-3" width="110px"
+                                        src="img/urtipula.png" alt=""></span> </div>
+                            <div class="col-6 col-md-4 py-1"><span class="h5">Yvon Zill, guide pêche</span> </div>
+                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="90px"
+                                    src="img/ecvideo.png" alt="">
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="faq">
+        <section id="faq" class="py-4">
             <div class="container">
                 <div class="row ">
                     <h2 class="text-center">Vos questions</h2>
+                    <p>Nous répondons à un certains nombre de questions dans la <a href="faq.html">page FAQ</a></p>
+                    <ul class="ps-5">
+                        <li><a class="text-decoration-none text-danger" href="faq.html#pollution">Quelle
+                                pollution
+                                peut
+                                on signaler
+                                ?</a></li>
+                        <li><a class="text-decoration-none text-danger" href="faq.html#devenir">Que devient mon
+                                signalement ?</a>
+                        </li>
+                        <li><a class="text-decoration-none text-danger" href="faq.html#temps"> Combien de temps les
+                                signalements
+                                restent sur la
+                                carte ?</a></li>
+                        <li><a class="text-decoration-none text-danger" href="faq.html#couleurs"> A quoi correspondent
+                                les
+                                couleurs des
+                                drapeaux
+                                ?</a></li>
+                        <li><a class="text-decoration-none text-danger" href="faq.html#basque">Pourquoi les pollutions
+                                sont­elles uniquement
+                                répertoriées sur le pays basque
+                                ?</a> </li>
+                        <li><a class="text-decoration-none text-danger" href="faq.html#suffisant">Cela n’est-il pas bien
+                                insuffisant pour
+                                sauver nos
+                                océans?</a> </li>
+                    </ul>
+                    <p>Mais si vous avez d'autres questions ou l'envie de nous rejoindre, n'hésitez pas à nous contacter
+                        par
+                        mail
+                        : <a href="">en cliquant sur ce lien vous serez redirigé vers un formulaire de contact</a></p>
                 </div>
             </div>
         </section>
 
-        <section id="liensutiles">
+        <section id="liensutiles" class="py-4">
             <div class="container">
                 <div class="row justify-content-center">
-                    <h2 class="text-center">Liens utiles</h2>
+                    <h2 class="text-center">On parle de nous</h2>
                 </div>
             </div>
         </section>
@@ -141,12 +232,37 @@
 
     <footer style="background-color: #0387cd;" class=" d-flex justity-content-center align-items-center pt-2 pb-4">
         <div class=" container text-center text-white">
+            <div class="row justify-content-end">
+                <div class="col-2">
+                    <a href="#haut"><img src="img/up-arrow (3).png" alt="" class="img-fluid" width="40px">
+                </div></a>
+
+            </div>
             <hr>
             <div class="row">
-                <div class="col-4">Site Map</div>
-                <div class="col-4">Réseaux sociaux</div>
-                <div class="col-4">Nous contacter</div>
+                <div class="col-4 ">Site Map</div>
+                <!-- réseaux sociaux -->
+                <div class="row col-8">
+                    <div class="col-6 ">
+                        <a href="https://www.facebook.com/groups/1003483323064633/" target="_blank" rel="nofollow"
+                            class="px-md-2"><img src="img/facebook.png" width="40px" alt=""></a>
+                        <a href="https://www.instagram.com/carte.uramap/" target="_blank" rel="nofollow"
+                            class="px-md-2"><img src="img/instagram.png" width="40px" alt=""></a>
+                        <a href="https://twitter.com/uramap1" target="_blank" rel="nofollow" class="px-md-2"><img
+                                src="img/twitter (1).png" width="40px" alt=""></a>
+                    </div>
+                    <div class="col-6 ">
+                        <a href="contact.html" class="nav-link p-0 text-white"><span class="material-icons">mail</span>
+                            <br> Nous contacter</a>
+                    </div>
+                    <div class="col-12 py-3">
+                        <p>Inscription à la newsletter</p>
+                    </div>
+
+                </div>
             </div>
+            <p class="text-info text-sm">&copy;2022 Carozum for Uramap with <img src="img/love.png" width="30px" alt="">
+            </p>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
