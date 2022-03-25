@@ -54,7 +54,8 @@
     </nav>
 
 
-    <header style="background-color: #0387cd;" class=" d-flex justity-content-center align-items-center  pb-5">
+    <header style="background-color: #0387cd;"
+        class=" d-flex flex-column justity-content-center align-items-center  pb-5">
         <div class="container-fluid">
             <!-- réseaux sociaux -->
             <div class="row pt-1 pb-3 justify-content-end">
@@ -67,43 +68,44 @@
                         class="px-1 align-items-end"><img src="img/twitter (1).png" width="30px" alt=""></a>
                 </div>
             </div>
-            <div class=" container text-center text-white pt-5">
-                <h1 class="pb-4"> URAMAP carte citoyenne participative de signalement de pollutions en rivières et cours
-                    d'eau au Pays
-                    Basque et en France</h1>
-                <p>Participez au signalement collectif et citoyen des pollutions de rivières et cours d'eau grace à la
-                    carte
-                    participative URAMAP, au Pays Basque et partout en France. Tout signalement est important. Parceque
-                    80%
-                    de la pollution des océans vient des rivières, commençons par là! </p>
-                <div class="pt-3 row justity-content-between">
+        </div>
+        <div class=" container text-center text-white pt-5 m-0">
+            <h1 class="pb-4"> URAMAP carte citoyenne participative de signalement de pollutions en rivières et cours
+                d'eau au Pays
+                Basque et en France</h1>
+            <p>Participez au signalement collectif et citoyen des pollutions de rivières et cours d'eau grace à la
+                carte
+                participative URAMAP, au Pays Basque et partout en France. Tout signalement est important. Parceque
+                80%
+                de la pollution des océans vient des rivières, commençons par là! </p>
+            <div class="pt-3 row justity-content-between">
 
-                    <div class="col col-md-4 py-2"><a style="width: 200px; " href="archive-pollutions.html"
-                            class="btn btn-lg btn-light align-content   -center ">Voir la liste des
-                            pollutions</a></div>
+                <div class="col col-md-4 py-2"><a style="width: 200px; " href="archive-pollutions.html"
+                        class="btn btn-lg btn-light align-content   -center ">Voir la liste des
+                        pollutions</a></div>
 
-                    <div class="col-md-4 py-2"><a style="width: 200px;" href="signaler-pollution.html"
-                            class="btn btn-lg btn-warning">Signaler une
-                            pollution</a></div>
+                <div class="col-md-4 py-2"><a style="width: 200px;" href="signaler-pollution.html"
+                        class="btn btn-lg btn-warning">Signaler une
+                        pollution</a></div>
 
-                    <div class="col-md-4 py-2"><a style="width: 200px;" href="archive-actions.html"
-                            class="btn btn-lg btn-danger">Participer à une
-                            action</a></div>
-                </div>
-
+                <div class="col-md-4 py-2"><a style="width: 200px;" href="archive-actions.html"
+                        class="btn btn-lg btn-danger">Participer à une
+                        action</a></div>
             </div>
+
+        </div>
     </header>
 
     <main>
 
         <!-- carte participative -->
-        <section class="container py-3">
-            <iframe src="https://www.uramap.net/" style="width:100%; height: 80vh;"></iframe>
+        <section class="p-0 pt-1">
+            <iframe src="https://www.uramap.net/" style="width:100%; height: 100vh;"></iframe>
 
         </section>
 
 
-        <section id="nouvelles" class="bg-primary bg-opacity-25 py-4">
+        <section id="nouvelles" class="bg-primary bg-opacity-25 py-4 m-0">
             <div class="container">
                 <div class="row">
                     <!-- agenda des actions -->
@@ -120,17 +122,39 @@
 
         </section>
 
-        <section id="projet" class="bg-light py-4">
+        <!-- présentation d'uramap -->
+        <section id="projet" class="py-4">
             <div class="container">
+                <!-- le collectif -->
                 <div class="row">
-                    <div class="col-md-6 px-md-5">
-                        <h2>L'outil, la carte participative</h2>
-                        <p>Uramap, la carte participative des pollutions, est un outil pour lutter ensemble contre les
+                    <div class="col-md-6 ps-md-4">
+                        <img src="img/action5.jpeg" class="img-fluid pb-2" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="text-md-end"><img src="img/united.png" width="50px" alt=""> Le collectif citoyen</h2>
+                        <p>Uramap, c’est un collectif ouvert de citoyens et d’organisations mobilisés pour lutter
+                            contre
+                            les
+                            pollutions de nos cours d’eau et océans.
+                            Uramap c’est nous tous, l’ensemble des participants engagés, qui faisons avancer ce
+                            projet
+                            par notre
+                            action, notre engagement.</p>
+
+                    </div>
+
+                    <div class="col-12">
+                        <h2 class="text-md-end"><img src="img/map.png" width="50px" alt="">L'outil, la carte
+                            participative</h2>
+                        <p>Uramap, la carte participative des pollutions, est un outil pour lutter ensemble contre
+                            les
                             pollutions des rivières et océans, en se rassemblant autour:</p>
                         <ul>
-                            <li>D'une vision partagée, l’eau: un bien commun dont la vie de chaque individu dépend, du
+                            <li>D'une vision partagée, l’eau: un bien commun dont la vie de chaque individu dépend,
+                                du
                                 plus petit cours d’eau jusqu’à l’océan.</li>
-                            <li>D'une mission partagée: Utiliser un outil commun, véritable plateforme citoyenne, pour
+                            <li>D'une mission partagée: Utiliser un outil commun, véritable plateforme citoyenne,
+                                pour
                                 communiquer, se
                                 rassembler afin d’avoir une réelle capacité d’action, de suivi en matière de
                                 dépollution, et de dissuasion. </li>
@@ -139,91 +163,84 @@
                                 permet de tendre vers des pratiques de plus en plus respectueuses envers
                                 l’environnement.</li>
                         </ul>
+                    </div>
+                    <div class="col-12 text-end pb-4">
+                        <a href="presentation.html"> Pour en savoir plus...</a>
 
                     </div>
-                    <div class="col-md-6 px-md-5">
-                        <h2>Le collectif citoyen</h2>
-                        <p>Uramap, c’est un collectif ouvert de citoyens et d’organisations mobilisés pour lutter contre
-                            les
-                            pollutions de nos cours d’eau et océans.
-                            Uramap c’est nous tous, l’ensemble des participants engagés, qui faisons avancer ce projet
-                            par notre
-                            action, notre engagement.</p>
 
-                        <div class="row py-4">
-                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="90px" src="img/bizi.png"
-                                    alt="">
-                            </div>
-                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="80px"
-                                    src="img/itsasarima.png" alt="">
-                            </div>
-                            <div class="col-6 col-md-4 py-1"><img class="img-fluid" width="60px" src="img/surfrider.png"
-                                    alt="">
-                            </div>
-                            <div class="col-6 col-md-4 py-1"><img class="img-fluid mx-3" width="160px"
-                                    src="img/anpertos.png" alt="">
-                            </div>
-                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="200px"
-                                    src="img/lalasurfcenter.jpeg" alt=""></div>
-                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="110px"
-                                    src="img/angletsurfspririt.png" alt=""></div>
-                            <div class="col-6 col-md-4 py-1"><span class="h5"><img class="img-fluid me-3" width="110px"
-                                        src="img/urtipula.png" alt=""></span> </div>
-                            <div class="col-6 col-md-4 py-1"><span class="h5">Yvon Zill, guide pêche</span> </div>
-                            <div class="col-6 col-md-4 py-1"><img class="img-fluid me-3" width="90px"
-                                    src="img/ecvideo.png" alt="">
-                            </div>
 
-                        </div>
-                    </div>
                 </div>
             </div>
+
         </section>
 
-        <section id="faq" class="py-4">
+        <section id="faq" class="py-4 bg-light">
             <div class="container">
                 <div class="row ">
-                    <h2 class="text-center">Vos questions</h2>
-                    <p>Nous répondons à un certains nombre de questions dans la <a href="faq.html">page FAQ</a></p>
-                    <ul class="ps-5">
-                        <li><a class="text-decoration-none text-danger" href="faq.html#pollution">Quelle
-                                pollution
-                                peut
-                                on signaler
-                                ?</a></li>
-                        <li><a class="text-decoration-none text-danger" href="faq.html#devenir">Que devient mon
-                                signalement ?</a>
-                        </li>
-                        <li><a class="text-decoration-none text-danger" href="faq.html#temps"> Combien de temps les
-                                signalements
-                                restent sur la
-                                carte ?</a></li>
-                        <li><a class="text-decoration-none text-danger" href="faq.html#couleurs"> A quoi correspondent
-                                les
-                                couleurs des
-                                drapeaux
-                                ?</a></li>
-                        <li><a class="text-decoration-none text-danger" href="faq.html#basque">Pourquoi les pollutions
-                                sont­elles uniquement
-                                répertoriées sur le pays basque
-                                ?</a> </li>
-                        <li><a class="text-decoration-none text-danger" href="faq.html#suffisant">Cela n’est-il pas bien
-                                insuffisant pour
-                                sauver nos
-                                océans?</a> </li>
-                    </ul>
-                    <p>Mais si vous avez d'autres questions ou l'envie de nous rejoindre, n'hésitez pas à nous contacter
-                        par
-                        mail
-                        : <a href="">en cliquant sur ce lien vous serez redirigé vers un formulaire de contact</a></p>
+                    <div class="col-md-4">
+                        <p><img src="img/ask.png" width="80px" alt=""></p>
+                        <h2 class="text-center text-md-start">Vos questions</h2>
+                        <p>Nous répondons à un certain nombre de vos questions dans la <a
+                                class="link-primary text-decoration-none" href="faq.html">page FAQ</a>
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <ul class="ps-5">
+                            <li><a class="text-decoration-none text-dark" href="faq.html#pollution">Quelle
+                                    pollution
+                                    peut
+                                    on signaler
+                                    ?</a></li>
+                            <li><a class="text-decoration-none text-dark" href="faq.html#devenir">Que devient mon
+                                    signalement ?</a>
+                            </li>
+                            <li><a class="text-decoration-none text-dark" href="faq.html#temps"> Combien de temps les
+                                    signalements
+                                    restent sur la
+                                    carte ?</a></li>
+                            <li><a class="text-decoration-none text-dark" href="faq.html#couleurs"> A quoi
+                                    correspondent
+                                    les
+                                    couleurs des
+                                    drapeaux
+                                    ?</a></li>
+                            <li><a class="text-decoration-none text-dark" href="faq.html#basque">Pourquoi les
+                                    pollutions
+                                    sont­elles uniquement
+                                    répertoriées sur le pays basque
+                                    ?</a> </li>
+                            <li><a class="text-decoration-none text-dark" href="faq.html#suffisant">Cela n’est-il pas
+                                    bien
+                                    insuffisant pour
+                                    sauver nos
+                                    océans?</a> </li>
+                        </ul>
+                        <p>Mais si vous avez d'autres questions ou l'envie de nous rejoindre, n'hésitez pas à nous
+                            contacter
+                            par
+                            mail
+                            : <a class="link-primary text-decoration-none" href="">en cliquant sur ce lien vous serez
+                                redirigé vers un
+                                formulaire de
+                                contact</a>
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="liensutiles" class="py-4">
+        <section id="parledenous" class="py-4 bg-white">
             <div class="container">
-                <div class="row justify-content-center">
-                    <h2 class="text-center">On parle de nous</h2>
+                <div class="row">
+                    <div class="col-12 text-md-end">
+                        <img src="img/newspaper.png" alt="" class="img-fluid" width="80px">
+                    </div>
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4">
+                        <h2 class="text-center">On parle de nous</h2>
+                    </div>
                 </div>
             </div>
         </section>
